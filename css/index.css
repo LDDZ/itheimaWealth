@@ -1,0 +1,68 @@
+/* 通用样式 */
+body{
+    font-size: 14px;
+    color: #333;
+}
+a{color: #333;}
+a:hover{color: #333;text-decoration: none;}
+
+/* 顶部通栏 */
+.heima_topBar{
+    border: 1px solid #ccc;
+    font-size: 12px;
+    color: #666;
+    position: relative;
+    z-index: 1001;
+}
+.heima_topBar .row{display: flex;}
+.heima_topBar a:last-of-type{color: #666;}
+.heima_topBar a:last-of-type:hover{color: #666;}
+.heima_topBar .heima_icon_phoneApp{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/phone_app.png) no-repeat;
+    background-size: 20px 20px;
+}
+.heima_topBar .heima_icon_phone{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/phone.png) no-repeat;
+    background-size: 16px 16px;
+}
+.heima_topBar .heima_icon_down{
+    /* margin-top: 12px; */
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/down.png) no-repeat;
+    background-size: 14px 14px;
+}
+.heima_topBar > .container > .row > div{
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+/* 选择器：element+element	示例：div+p	说明：选择所有紧接着<div>元素之后的<p>元素 */
+.heima_topBar > .container > .row > div + div{
+    border-left: 1px solid #666;
+}
+/* 二维码的位置及隐藏 */
+.heima_topBar .heima_app{
+    position: relative;
+    display: block;
+}
+.heima_topBar .heima_app img{
+    display: none;
+}
+.heima_topBar .heima_app:hover img{
+    display: block;
+    position: absolute;
+    top: 40px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: -60px;
+}
+/* 登录按钮 */
+.heima_topBar .btn-login{text-decoration: none;}
