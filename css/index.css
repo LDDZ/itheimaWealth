@@ -66,3 +66,18 @@ a:hover{color: #333;text-decoration: none;}
 }
 /* 登录按钮 */
 .heima_topBar .btn-login{text-decoration: none;}
+
+
+/* 轮播图 */
+.heima_banner .container-fluid{
+    padding: 0;
+}
+.heima_banner .container-fluid .carousel-inner .carousel-item{
+    width: 100%;
+    height: 410px;
+}
+.heima_banner .container-fluid .carousel-inner .carousel-item img{
+    position: relative;
+    width: 100%;
+    height: 410px;
+}

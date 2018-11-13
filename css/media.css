@@ -1,0 +1,16 @@
+@media screen and (max-width: 540px){
+    .heima_banner .container-fluid .carousel-inner .carousel-item{
+        height: 200px;
+    }
+    .heima_banner .container-fluid .carousel-inner .carousel-item img{
+        height: 200px;
+    }
+}
+@media (min-width: 541px) and (max-width: 960px){
+    .heima_banner .container-fluid .carousel-inner .carousel-item{
+        height: 340px;
+    }
+    .heima_banner .container-fluid .carousel-inner .carousel-item img{
+        height: 410px;
+    }
+}
