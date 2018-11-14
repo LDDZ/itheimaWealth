@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-cmn">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -7,14 +8,20 @@
     <title>黑马财富</title>
     <!-- 新 Bootstrap4 核心 CSS 文件 -->
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
-    
+    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
     <!-- index.css -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
+
 <body>
     <!-- 顶部通栏 -->
-    <header class="heima_topBar">
+    <header class="heima_topBar hidden-sm hidden-xs">
         <div class="container">
             <div class="row">
                 <div class="col-md-2">
@@ -67,51 +74,157 @@
             <div id="demo" class="carousel slide" data-ride="carousel">
                 <!-- 指示符 -->
                 <ul class="carousel-indicators">
-                  <li data-target="#demo" data-slide-to="0" class="active"></li>
-                  <li data-target="#demo" data-slide-to="1"></li>
-                  <li data-target="#demo" data-slide-to="2"></li>
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
                 </ul>
                 <!-- 轮播图片 -->
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images/slider01.jpg">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/slider02.jpg">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images/slider03.jpg">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="images/slider01.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider02.jpg">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/slider03.jpg">
+                    </div>
                 </div>
                 <!-- 左右切换按钮 -->
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
+                    <span class="carousel-control-prev-icon"></span>
                 </a>
                 <a class="carousel-control-next" href="#demo" data-slide="next">
-                  <span class="carousel-control-next-icon"></span>
+                    <span class="carousel-control-next-icon"></span>
                 </a>
             </div>
         </div>
     </div>
     <!-- 信息模块 -->
-    <div class="heima_info"></div>
+    <div class="heima_info hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-1"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">VIP会员精致服务</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-2"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-3"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-4"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-5"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <a href="#">
+                        <div class="madia">
+                            <div class="madia-left">
+                                <span class="heima_icon heima_icon-6"></span>
+                            </div>
+                            <div class="madia-body">
+                                <h4 class="media-heading">支付交易保障</h4>
+                                <p>银联支付全称保证支付安全</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- 预约 -->
-    <div class="heima_book"></div>
+    <div class="heima_book">
+        <div class="container">
+            <div class="row">
+                <div class="col-8">
+                <span class="heima_icon-7"></span>
+                现在有245人在排队，累计预约成功7987次。什么是预约投标？
+                <a class="book-link" href="#">立即预约</a>
+            </div>
+            <div class="col-4 hidden-xs">
+                <a href="#">
+                    <span class="heima_icon-8"></span>
+                    黑马程序员企业宣传片
+                </a>
+            </div>
+            </div>
+        </div>
+    </div>
     <!-- 产品模块 -->
     <div class="heima_product"></div>
     <!-- 新闻模块 -->
     <div class="heima_news"></div>
     <!-- 底部模块 -->
-    <footer class="heima_partner"></footer>
+    <footer class="heima_partner">
+        <div class="container">
+            <h3>合作伙伴</h3>
+            <ul>
+                <li><a href="#" class="heima_icon heima_icon_partner01"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner02"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner03"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner04"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner05"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner06"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner07"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner08"></a></li>
+                <li><a href="#" class="heima_icon heima_icon_partner09"></a></li>
+            </ul>
+        </div>
+    </footer>
 
-
-
-
-    <!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
-    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
-    <!-- popper.min.js 用于弹窗、提示、下拉菜单 -->
-    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
-    <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
 </body>
+
 </html>

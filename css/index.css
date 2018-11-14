@@ -81,3 +81,126 @@ a:hover{color: #333;text-decoration: none;}
     width: 100%;
     height: 410px;
 }
+/* 信息模块 */
+.heima_info{
+    padding: 50px;
+    border-bottom: 1px solid #ccc;
+}
+.heima_info .col-md-4{padding: 10px;}
+.heima_info .madia-left{display: inline-block;}
+.heima_info .madia-body{display: inline-block;}
+/* 信息模块图标 */
+.heima_icon{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+}
+.heima_info .heima_icon-1{
+    background: url(../images/VIP.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-2{
+    background: url(../images/money.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-3{
+    background: url(../images/hot.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-4{
+    background: url(../images/wallet.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-5{
+    background: url(../images/data.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_info .heima_icon-6{
+    background: url(../images/discount.png) no-repeat;
+    background-size: 50px 50px;
+}
+/* 预约模块 */
+.heima_book{
+    padding: 25px 0;
+}
+.heima_book a:hover{
+    color: #e92322;
+}
+.heima_book .book-link{
+    color: #e92322;
+    border-bottom: 1px dashed #e92322;
+}
+/* 预约模块图标 */
+.heima_book .heima_icon-7{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/stopwatch.png) no-repeat;
+    background-size: 20px 20px;
+}
+.heima_book .heima_icon-8{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url(../images/projector.png) no-repeat;
+    background-size: 30px 20px;
+}
+
+
+
+/* 底部模块  合作伙伴 */
+.heima_partner{
+    background: #f5f5f5;
+    padding: 20px 0;
+    text-align: center;
+}
+.heima_partner ul{
+    list-style: none;
+    padding-left: 0;
+    display: inline-block;
+}
+.heima_partner ul li{
+    float: left;
+    font-size: 60px;
+    margin-left: 40px;
+}
+.heima_partner ul li:first-child{
+    margin-left: 0;
+}
+/* 底部模块  合作伙伴图标 */
+.heima_icon_partner01{
+    background: url(../images/alibaba.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner02{
+    background: url(../images/bilibili.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner03{
+    background: url(../images/facebook.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner04{
+    background: url(../images/GitHub.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner05{
+    background: url(../images/Google.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner06{
+    background: url(../images/kuan.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner07{
+    background: url(../images/netEaseCloudMusic.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner08{
+    background: url(../images/weibo.png) no-repeat;
+    background-size: 50px 50px;
+}
+.heima_icon_partner09{
+    background: url(../images/Microsoft.png) no-repeat;
+    background-size: 50px 50px;
+}
