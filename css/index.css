@@ -147,6 +147,45 @@ a:hover{color: #333;text-decoration: none;}
 }
 
 
+/* 新闻模块 */
+.heima_news{
+    padding: 20px 0;
+}
+.heima_news .news_titile{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+/* .heima_news .news_titile */
+.heima_news .news_line{
+    position: absolute;
+    top: 0;
+    left: 45px;
+    height: 100%;
+    border-left: 1px dashed #ccc;
+    width: 1px;
+}
+/* 新闻模块 tab */
+/* .nav-tabs-news{
+    border: none;
+} */
+/* .nav-tabs-news > li{
+    float: left;
+    margin-bottom: -1px;
+} */
+.nav-tabs-news > li > a{
+    /* margin-right: 0; */
+    height: 60px;
+    line-height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    
+}
+
 
 /* 底部模块  合作伙伴 */
 .heima_partner{
