@@ -55,6 +55,8 @@ a:hover{color: #333;text-decoration: none;}
 }
 .heima_topBar .heima_app img{
     display: none;
+    width: 180px;
+    height: 180px;
 }
 .heima_topBar .heima_app:hover img{
     display: block;
