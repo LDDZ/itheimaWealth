@@ -5,7 +5,9 @@
     .heima_banner .container-fluid .carousel-inner .carousel-item img{
         height: 200px;
     }
-    .nav-tabs-news{height: 60px;}
+    .heima_news{padding-top: 0;}
+    .heima_news .row div:first-child{margin-bottom: 10px;}
+    .nav-tabs-news{ height: 60px;}
     .nav-tabs-news > li{width: 25%; }
     .nav-tabs-news > li>a{margin: 0;}
 }
